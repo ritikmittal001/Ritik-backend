@@ -5,6 +5,7 @@ const app = express()
 const port = 4000
 
 const githubdata="I am github api";
+const demodata="hello demo";
 
 app.get('/', (req, res) => {
   res.send('Hello World hello ji!')
